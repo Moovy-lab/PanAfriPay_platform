@@ -1,6 +1,0 @@
-pyproject.toml
-src/PanAfriPay.egg-info/PKG-INFO
-src/PanAfriPay.egg-info/SOURCES.txt
-src/PanAfriPay.egg-info/dependency_links.txt
-src/PanAfriPay.egg-info/requires.txt
-src/PanAfriPay.egg-info/top_level.txt
