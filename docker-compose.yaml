@@ -78,8 +78,8 @@ services:
   airflow-init:
     <<: *airflow-common
     restart: "no"
-    entrypoint: /bin/bash
     command:
+      - bash
       - -c
       - |
         airflow db migrate
