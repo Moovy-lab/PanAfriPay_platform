@@ -20,7 +20,6 @@ RUN pip install --no-cache-dir \
       "delta-spark==${DELTA_VERSION}" \
       "pandas>=2.1,<3" pyarrow python-json-logger pytest pytest-cov
 
-# dbt et Great Expectations isolés dans leurs propres environnements
 RUN python -m venv /home/airflow/dbt_venv \
     && /home/airflow/dbt_venv/bin/pip install \
          --no-cache-dir \
