@@ -1,0 +1,36 @@
+2026-10-26 13:30:59,095 [INFO] ============================================================
+2026-10-26 13:30:59,095 [INFO] Démarrage ingestion RAW — date=2026-10-26
+2026-10-26 13:30:59,095 [INFO] ============================================================
+2026-10-26 13:30:59,095 [WARNING] [orders] CSV introuvable : data/bronze/orders.csv
+2026-10-26 13:30:59,095 [WARNING] [order_lines] CSV introuvable : data/bronze/order_lines.csv
+2026-10-26 13:30:59,095 [WARNING] [customers] CSV introuvable : data/bronze/customers.csv
+2026-10-26 13:30:59,095 [WARNING] [products] CSV introuvable : data/bronze/products.csv
+2026-10-26 13:30:59,095 [WARNING] [payments] CSV introuvable : data/bronze/payments.csv
+2026-10-26 13:30:59,095 [WARNING] [deliveries] CSV introuvable : data/bronze/deliveries.csv
+2026-10-26 13:30:59,095 [INFO] Total lignes ingérées : 0
+2026-10-26 13:30:59,095 [INFO] ✅ Ingestion terminée avec succès
+2026-10-26 13:32:43,791 [INFO] ============================================================
+2026-10-26 13:32:43,791 [INFO] Démarrage ingestion RAW — date=2026-10-26
+2026-10-26 13:32:43,791 [INFO] ============================================================
+2026-10-26 13:32:43,791 [WARNING] [agents] CSV introuvable : data/bronze/agents.csv
+2026-10-26 13:32:43,791 [WARNING] [fx_rates] CSV introuvable : data/bronze/fx_rates.csv
+2026-10-26 13:32:43,791 [WARNING] [customers] CSV introuvable : data/bronze/customers.csv
+2026-10-26 13:32:43,791 [WARNING] [operators] CSV introuvable : data/bronze/operators.csv
+2026-10-26 13:32:43,791 [WARNING] [transactions] CSV introuvable : data/bronze/transactions.csv
+2026-10-26 13:32:43,792 [INFO] Total lignes ingérées : 0
+2026-10-26 13:32:43,792 [INFO] ✅ Ingestion terminée avec succès
+2026-10-26 13:36:33,997 [INFO] ============================================================
+2026-10-26 13:36:33,997 [INFO] Démarrage ingestion RAW — date=2026-10-26
+2026-10-26 13:36:33,997 [INFO] ============================================================
+2026-10-26 13:36:33,997 [INFO] [agents] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/agents.csv
+2026-10-26 13:36:34,009 [ERROR] [agents] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:36:34,009 [INFO] [fx_rates] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/fx_rates.csv
+2026-10-26 13:36:34,011 [ERROR] [fx_rates] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:36:34,011 [INFO] [customers] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/customers.csv
+2026-10-26 13:36:34,103 [ERROR] [customers] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:36:34,106 [INFO] [operators] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/operators.csv
+2026-10-26 13:36:34,107 [ERROR] [operators] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:36:34,107 [INFO] [transactions] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/transactions.csv
+2026-10-26 13:36:34,495 [ERROR] [transactions] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:36:34,510 [INFO] Total lignes ingérées : 0
+2026-10-26 13:36:34,510 [ERROR] Sources en échec : ['agents', 'fx_rates', 'customers', 'operators', 'transactions']

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "agents",
+    "ingestion_date": "2026-10-26",
+    "status": "failed",
+    "rows": 0,
+    "duration_sec": 0.011,
+    "error": "`Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package."
+  },
+  {
+    "source": "fx_rates",
+    "ingestion_date": "2026-10-26",
+    "status": "failed",
+    "rows": 0,
+    "duration_sec": 0.002,
+    "error": "`Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package."
+  },
+  {
+    "source": "customers",
+    "ingestion_date": "2026-10-26",
+    "status": "failed",
+    "rows": 0,
+    "duration_sec": 0.092,
+    "error": "`Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package."
+  },
+  {
+    "source": "operators",
+    "ingestion_date": "2026-10-26",
+    "status": "failed",
+    "rows": 0,
+    "duration_sec": 0.002,
+    "error": "`Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package."
+  },
+  {
+    "source": "transactions",
+    "ingestion_date": "2026-10-26",
+    "status": "failed",
+    "rows": 0,
+    "duration_sec": 0.388,
+    "error": "`Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package."
+  }
+]

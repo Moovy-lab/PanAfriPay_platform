@@ -1,0 +1,46 @@
+2026-10-26 13:37:29,975 [INFO] ============================================================
+2026-10-26 13:37:29,975 [INFO] Démarrage ingestion RAW — date=2026-10-26
+2026-10-26 13:37:29,975 [INFO] ============================================================
+2026-10-26 13:37:29,975 [INFO] [agents] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/agents.csv
+2026-10-26 13:37:29,986 [ERROR] [agents] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:37:29,986 [INFO] [fx_rates] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/fx_rates.csv
+2026-10-26 13:37:29,988 [ERROR] [fx_rates] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:37:29,988 [INFO] [customers] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/customers.csv
+2026-10-26 13:37:30,073 [ERROR] [customers] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:37:30,076 [INFO] [operators] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/operators.csv
+2026-10-26 13:37:30,077 [ERROR] [operators] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:37:30,077 [INFO] [transactions] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/transactions.csv
+2026-10-26 13:37:30,428 [ERROR] [transactions] ❌ Erreur : `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+2026-10-26 13:37:30,442 [INFO] Total lignes ingérées : 0
+2026-10-26 13:37:30,442 [ERROR] Sources en échec : ['agents', 'fx_rates', 'customers', 'operators', 'transactions']
+2026-10-26 13:38:43,006 [INFO] ============================================================
+2026-10-26 13:38:43,006 [INFO] Démarrage ingestion RAW — date=2026-10-26
+2026-10-26 13:38:43,006 [INFO] ============================================================
+2026-10-26 13:38:43,006 [INFO] [agents] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/agents.csv
+2026-10-26 13:38:43,050 [INFO] [agents] 5005 lignes → /home/zongoghost/Documents/panafripay_platform/data/lakehouse/bronze/agents/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:38:43,050 [INFO] [fx_rates] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/fx_rates.csv
+2026-10-26 13:38:43,054 [INFO] [fx_rates] 270 lignes → /home/zongoghost/Documents/panafripay_platform/data/lakehouse/bronze/fx_rates/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:38:43,054 [INFO] [customers] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/customers.csv
+2026-10-26 13:38:43,411 [INFO] [customers] 50050 lignes → /home/zongoghost/Documents/panafripay_platform/data/lakehouse/bronze/customers/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:38:43,413 [INFO] [operators] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/operators.csv
+2026-10-26 13:38:43,427 [INFO] [operators] 5 lignes → /home/zongoghost/Documents/panafripay_platform/data/lakehouse/bronze/operators/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:38:43,427 [INFO] [transactions] Lecture de /home/zongoghost/Documents/panafripay_platform/data/bronze/transactions.csv
+2026-10-26 13:38:44,420 [INFO] [transactions] 109325 lignes → /home/zongoghost/Documents/panafripay_platform/data/lakehouse/bronze/transactions/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:38:44,424 [INFO] Total lignes ingérées : 164655
+2026-10-26 13:38:44,424 [INFO] --- Ingestion terminée avec succès
+2026-10-26 13:43:19,371 [INFO] ============================================================
+2026-10-26 13:43:19,371 [INFO] Démarrage ingestion RAW — date=2026-10-26
+2026-10-26 13:43:19,372 [INFO] Batch ID : 9f048c46-ab98-4404-81c6-e3d98e55159e
+2026-10-26 13:43:19,372 [INFO] ============================================================
+2026-10-26 13:43:19,372 [INFO] [agents] Lecture de data/bronze/agents.csv
+2026-10-26 13:43:19,423 [INFO] [agents] -- 5005 lignes → data/lakehouse/bronze/agents/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:43:19,424 [INFO] [fx_rates] Lecture de data/bronze/fx_rates.csv
+2026-10-26 13:43:19,429 [INFO] [fx_rates] -- 270 lignes → data/lakehouse/bronze/fx_rates/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:43:19,429 [INFO] [customers] Lecture de data/bronze/customers.csv
+2026-10-26 13:43:19,595 [INFO] [customers] -- 50050 lignes → data/lakehouse/bronze/customers/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:43:19,596 [INFO] [operators] Lecture de data/bronze/operators.csv
+2026-10-26 13:43:19,600 [INFO] [operators] -- 5 lignes → data/lakehouse/bronze/operators/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:43:19,601 [INFO] [transactions] Lecture de data/bronze/transactions.csv
+2026-10-26 13:43:20,300 [INFO] [transactions] -- 109325 lignes → data/lakehouse/bronze/transactions/ingestion_date=2026-10-26/data.parquet
+2026-10-26 13:43:20,302 [INFO] Total lignes ingérées : 164655
+2026-10-26 13:43:20,302 [INFO] -- Ingestion terminée avec succès

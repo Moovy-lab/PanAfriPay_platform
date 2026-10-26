@@ -1,0 +1,47 @@
+[
+  {
+    "source": "agents",
+    "ingestion_date": "2026-10-26",
+    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "status": "success",
+    "rows": 5005,
+    "duration_sec": 0.052,
+    "error": null
+  },
+  {
+    "source": "fx_rates",
+    "ingestion_date": "2026-10-26",
+    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "status": "success",
+    "rows": 270,
+    "duration_sec": 0.005,
+    "error": null
+  },
+  {
+    "source": "customers",
+    "ingestion_date": "2026-10-26",
+    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "status": "success",
+    "rows": 50050,
+    "duration_sec": 0.167,
+    "error": null
+  },
+  {
+    "source": "operators",
+    "ingestion_date": "2026-10-26",
+    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "status": "success",
+    "rows": 5,
+    "duration_sec": 0.004,
+    "error": null
+  },
+  {
+    "source": "transactions",
+    "ingestion_date": "2026-10-26",
+    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "status": "success",
+    "rows": 109325,
+    "duration_sec": 0.7,
+    "error": null
+  }
+]
