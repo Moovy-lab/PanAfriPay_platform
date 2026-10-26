@@ -2,46 +2,46 @@
   {
     "source": "agents",
     "ingestion_date": "2026-10-26",
-    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "batch_id": "5dd21587-ff52-40eb-b60c-8a265769b3c8",
     "status": "success",
     "rows": 5005,
-    "duration_sec": 0.052,
+    "duration_sec": 0.057,
     "error": null
   },
   {
     "source": "fx_rates",
     "ingestion_date": "2026-10-26",
-    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "batch_id": "5dd21587-ff52-40eb-b60c-8a265769b3c8",
     "status": "success",
     "rows": 270,
-    "duration_sec": 0.005,
+    "duration_sec": 0.007,
     "error": null
   },
   {
     "source": "customers",
     "ingestion_date": "2026-10-26",
-    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "batch_id": "5dd21587-ff52-40eb-b60c-8a265769b3c8",
     "status": "success",
     "rows": 50050,
-    "duration_sec": 0.167,
+    "duration_sec": 0.182,
     "error": null
   },
   {
     "source": "operators",
     "ingestion_date": "2026-10-26",
-    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "batch_id": "5dd21587-ff52-40eb-b60c-8a265769b3c8",
     "status": "success",
     "rows": 5,
-    "duration_sec": 0.004,
+    "duration_sec": 0.006,
     "error": null
   },
   {
     "source": "transactions",
     "ingestion_date": "2026-10-26",
-    "batch_id": "9f048c46-ab98-4404-81c6-e3d98e55159e",
+    "batch_id": "5dd21587-ff52-40eb-b60c-8a265769b3c8",
     "status": "success",
     "rows": 109325,
-    "duration_sec": 0.7,
+    "duration_sec": 0.695,
     "error": null
   }
 ]
